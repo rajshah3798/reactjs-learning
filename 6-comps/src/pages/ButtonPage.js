@@ -4,19 +4,19 @@ import Button from '../components/Button';
 function ButtonPage() {
     return <div>
         <div>
-            <Button secondary><GoBell />Click here!</Button>
+            <Button className="mb-2" secondary><GoBell />Click here!</Button>
         </div>
         <div>
-            <Button warning><GoContainer />Click here!</Button>
+            <Button className="mb-2" warning><GoContainer />Buy Now!</Button>
         </div>
         <div>
-            <Button secondary outline><GoClock />Click here!</Button>
+            <Button className="mb-2" secondary outline><GoClock />See Deal!</Button>
         </div>
         <div>
-            <Button danger outline><GoDatabase />Click here!</Button>
+            <Button className="mb-2" danger outline><GoDatabase />Hide Ads!</Button>
         </div>
         <div>
-            <Button primary rounded><GoCopilot />Click here!</Button>
+            <Button className="mb-2" primary rounded><GoCopilot />Something!</Button>
         </div>
     </div>
 }
