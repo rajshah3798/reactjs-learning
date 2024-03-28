@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "119f",
+      "name": "Johanna Bartell"
+    }
+  ],
+  "albums": [
+    {
+      "id": "9c66",
+      "userId": "119f",
+      "title": "Generic Bronze Shirt"
+    }
+  ],
+  "photos": [
+    {
+      "id": "5797",
+      "albumId": "9c66",
+      "url": "https://loremflickr.com/150/150/abstract?lock=88273"
+    }
+  ]
+}
